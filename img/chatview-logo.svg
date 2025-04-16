@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .chat { fill: #4f46e5; }
+    .view { fill: #10b981; }
+    .ai { fill: #1f2937; }
+  </style>
+  
+  <!-- Chat Bubble Icon -->
+  <g transform="translate(10, 10)">
+    <path d="M25,5 C35,5 40,10 40,20 C40,30 35,35 25,35 L15,35 L5,45 L5,35 C-5,35 -10,30 -10,20 C-10,10 -5,5 5,5 Z" class="chat" />
+  </g>
+  
+  <!-- Eye Icon (View) -->
+  <g transform="translate(50, 25)">
+    <circle cx="0" cy="0" r="10" class="view" />
+    <circle cx="0" cy="0" r="5" fill="white" />
+    <circle cx="0" cy="0" r="2" fill="#1f2937" />
+  </g>
+  
+  <!-- Logo Text -->
+  <text x="75" y="32" class="logo-text">
+    <tspan class="chat">Chat</tspan><tspan class="view">View</tspan><tspan class="ai">AI</tspan>
+  </text>
+</svg>

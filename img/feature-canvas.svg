@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" rx="10" ry="10" fill="white" stroke="#e5e7eb" stroke-width="2" />
+  
+  <!-- Canvas Grid -->
+  <g stroke="#e5e7eb" stroke-width="1" stroke-dasharray="2,2">
+    <line x1="0" y1="100" x2="600" y2="100" />
+    <line x1="0" y1="200" x2="600" y2="200" />
+    <line x1="0" y1="300" x2="600" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+    <line x1="450" y1="0" x2="450" y2="400" />
+  </g>
+  
+  <!-- Widgets -->
+  <!-- Calendar Widget -->
+  <rect x="20" y="20" width="120" height="160" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="35" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Calendar</text>
+  <line x1="20" y1="55" x2="140" y2="55" stroke="#e5e7eb" stroke-width="1" />
+  <text x="35" y="80" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">9:00 AM - Meeting</text>
+  <text x="35" y="100" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">11:00 AM - Call</text>
+  <text x="35" y="120" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">2:00 PM - Review</text>
+  <text x="35" y="140" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">4:00 PM - Planning</text>
+  
+  <!-- Tasks Widget -->
+  <rect x="170" y="20" width="120" height="160" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="185" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Tasks</text>
+  <line x1="170" y1="55" x2="290" y2="55" stroke="#e5e7eb" stroke-width="1" />
+  <rect x="185" y="70" width="10" height="10" rx="2" ry="2" fill="none" stroke="#6b7280" stroke-width="1" />
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Prepare report</text>
+  <rect x="185" y="90" width="10" height="10" rx="2" ry="2" fill="none" stroke="#6b7280" stroke-width="1" />
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Call client</text>
+  <rect x="185" y="110" width="10" height="10" rx="2" ry="2" fill="#10b981" stroke="#10b981" stroke-width="1" />
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-decoration="line-through">Send email</text>
+  
+  <!-- Chart Widget -->
+  <rect x="320" y="20" width="260" height="160" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="335" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Performance</text>
+  <line x1="320" y1="55" x2="580" y2="55" stroke="#e5e7eb" stroke-width="1" />
+  
+  <!-- Simple Chart -->
+  <polyline points="335,140 365,110 395,130 425,90 455,70 485,100 515,80 545,60" 
+            fill="none" stroke="#4f46e5" stroke-width="2" />
+  <line x1="335" y1="140" x2="545" y2="140" stroke="#e5e7eb" stroke-width="1" />
+  <line x1="335" y1="70" x2="545" y2="70" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="2,2" />
+  <text x="335" y="155" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">Mon</text>
+  <text x="395" y="155" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">Wed</text>
+  <text x="455" y="155" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">Fri</text>
+  <text x="515" y="155" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">Sun</text>
+  
+  <!-- Notes Widget -->
+  <rect x="20" y="200" width="260" height="180" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="35" y="225" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Meeting Notes</text>
+  <line x1="20" y1="235" x2="280" y2="235" stroke="#e5e7eb" stroke-width="1" />
+  <text x="35" y="255" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• Discussed Q2 goals</text>
+  <text x="35" y="275" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• New marketing campaign</text>
+  <text x="35" y="295" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• Budget review</text>
+  <text x="35" y="315" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• Action items assigned</text>
+  <text x="35" y="335" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• Next meeting: Friday</text>
+  
+  <!-- Weather Widget -->
+  <rect x="320" y="200" width="120" height="180" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="335" y="225" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Weather</text>
+  <line x1="320" y1="235" x2="440" y2="235" stroke="#e5e7eb" stroke-width="1" />
+  <circle cx="380" cy="280" r="30" fill="#f59e0b" />
+  <text x="380" y="320" font-family="Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle">72°F</text>
+  <text x="380" y="340" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Sunny</text>
+  <text x="380" y="360" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">San Francisco</text>
+  
+  <!-- Stocks Widget -->
+  <rect x="460" y="200" width="120" height="180" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  <text x="475" y="225" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#1f2937">Stocks</text>
+  <line x1="460" y1="235" x2="580" y2="235" stroke="#e5e7eb" stroke-width="1" />
+  <text x="475" y="255" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">AAPL</text>
+  <text x="540" y="255" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="end">+1.2%</text>
+  <text x="475" y="275" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">MSFT</text>
+  <text x="540" y="275" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="end">+0.8%</text>
+  <text x="475" y="295" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">GOOG</text>
+  <text x="540" y="295" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="end">-0.3%</text>
+  <text x="475" y="315" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">AMZN</text>
+  <text x="540" y="315" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="end">+1.5%</text>
+  <text x="475" y="335" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">TSLA</text>
+  <text x="540" y="335" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="end">+2.1%</text>
+  
+  <!-- Drag Handle Indicators -->
+  <circle cx="140" cy="20" r="4" fill="#4f46e5" />
+  <circle cx="290" cy="20" r="4" fill="#4f46e5" />
+  <circle cx="580" cy="20" r="4" fill="#4f46e5" />
+  <circle cx="20" cy="180" r="4" fill="#4f46e5" />
+  <circle cx="280" cy="200" r="4" fill="#4f46e5" />
+  <circle cx="440" cy="200" r="4" fill="#4f46e5" />
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" rx="10" ry="10" fill="url(#bgGradient)" />
+  
+  <!-- Chat Interface Mockup -->
+  <rect x="50" y="50" width="500" height="300" rx="8" ry="8" fill="white" stroke="#e5e7eb" stroke-width="2" />
+  
+  <!-- Chat Header -->
+  <rect x="50" y="50" width="500" height="40" rx="8" ry="8" fill="#4f46e5" />
+  <text x="70" y="75" font-family="Arial, sans-serif" font-size="14" fill="white">ChatView AI</text>
+  
+  <!-- Chat Messages -->
+  <g transform="translate(70, 110)">
+    <!-- User Message -->
+    <rect x="0" y="0" width="200" height="40" rx="18" ry="18" fill="#e5e7eb" />
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Show me sales dashboard</text>
+    
+    <!-- AI Response -->
+    <rect x="100" y="50" width="350" height="40" rx="18" ry="18" fill="#4f46e5" />
+    <text x="120" y="75" font-family="Arial, sans-serif" font-size="12" fill="white">Creating sales dashboard view...</text>
+    
+    <!-- Visual Dashboard Element -->
+    <rect x="100" y="100" width="350" height="120" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1" />
+    
+    <!-- Dashboard Title -->
+    <text x="120" y="125" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#1f2937">Sales Dashboard</text>
+    
+    <!-- Chart Elements -->
+    <rect x="120" y="140" width="150" height="60" rx="4" ry="4" fill="#10b981" opacity="0.2" />
+    <rect x="280" y="140" width="150" height="60" rx="4" ry="4" fill="#4f46e5" opacity="0.2" />
+    
+    <!-- Chart Labels -->
+    <text x="150" y="170" font-family="Arial, sans-serif" font-size="10" fill="#1f2937">Revenue</text>
+    <text x="310" y="170" font-family="Arial, sans-serif" font-size="10" fill="#1f2937">Conversions</text>
+  </g>
+  
+  <!-- AI Elements -->
+  <g transform="translate(450, 70)">
+    <circle cx="30" cy="10" r="8" fill="#10b981" />
+    <text x="30" y="13" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">AI</text>
+  </g>
+</svg>

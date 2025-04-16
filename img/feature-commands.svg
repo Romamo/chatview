@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" rx="10" ry="10" fill="white" stroke="#e5e7eb" stroke-width="2" />
+  
+  <!-- Chat Interface -->
+  <rect x="50" y="50" width="500" height="300" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2" />
+  
+  <!-- Chat Header -->
+  <rect x="50" y="50" width="500" height="40" rx="8" ry="8" fill="#4f46e5" />
+  <text x="70" y="75" font-family="Arial, sans-serif" font-size="14" fill="white">Intuitive Chat Commands</text>
+  
+  <!-- Command History -->
+  <g transform="translate(70, 110)">
+    <!-- User Command 1 -->
+    <rect x="0" y="0" width="250" height="30" rx="15" ry="15" fill="#e5e7eb" />
+    <text x="20" y="20" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">/view create sales-dashboard</text>
+    
+    <!-- AI Response 1 -->
+    <rect x="100" y="40" width="350" height="30" rx="15" ry="15" fill="#4f46e5" />
+    <text x="120" y="60" font-family="Arial, sans-serif" font-size="12" fill="white">Creating sales dashboard view...</text>
+    
+    <!-- User Command 2 -->
+    <rect x="0" y="80" width="280" height="30" rx="15" ry="15" fill="#e5e7eb" />
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">/view add revenue-chart to sales-dashboard</text>
+    
+    <!-- AI Response 2 -->
+    <rect x="100" y="120" width="350" height="30" rx="15" ry="15" fill="#4f46e5" />
+    <text x="120" y="140" font-family="Arial, sans-serif" font-size="12" fill="white">Added revenue chart to sales dashboard</text>
+    
+    <!-- User Command 3 -->
+    <rect x="0" y="160" width="300" height="30" rx="15" ry="15" fill="#e5e7eb" />
+    <text x="20" y="180" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">/view customize sales-dashboard layout grid</text>
+    
+    <!-- AI Response 3 -->
+    <rect x="100" y="200" width="350" height="30" rx="15" ry="15" fill="#4f46e5" />
+    <text x="120" y="220" font-family="Arial, sans-serif" font-size="12" fill="white">Customizing layout, drag elements to arrange</text>
+  </g>
+  
+  <!-- Command Suggestions -->
+  <g transform="translate(450, 330)">
+    <rect x="-80" y="0" width="150" height="25" rx="12" ry="12" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1" />
+    <text x="-5" y="17" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">/view help</text>
+    
+    <rect x="-80" y="-35" width="150" height="25" rx="12" ry="12" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1" />
+    <text x="-5" y="-18" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">/view list</text>
+    
+    <rect x="-80" y="-70" width="150" height="25" rx="12" ry="12" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1" />
+    <text x="-5" y="-53" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">/view share sales-dashboard</text>
+  </g>
+  
+  <!-- Command Input -->
+  <g transform="translate(300, 370)">
+    <rect x="-230" y="-20" width="460" height="40" rx="20" ry="20" fill="white" stroke="#e5e7eb" stroke-width="2" />
+    <text x="-210" y="5" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">/view</text>
+    <line x1="170" y1="0" x2="210" y2="0" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round" />
+    <circle cx="190" cy="0" r="10" fill="#4f46e5" />
+    <text x="190" y="4" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">↵</text>
+  </g>
+  
+  <!-- Command Structure Visualization -->
+  <g transform="translate(500, 200)">
+    <!-- Command Structure Box -->
+    <rect x="-120" y="-80" width="150" height="160" rx="8" ry="8" fill="white" stroke="#4f46e5" stroke-width="1" stroke-dasharray="2,2" />
+    <text x="-95" y="-60" font-family="Arial, sans-serif" font-size="12" fill="#4f46e5" font-weight="bold">Command Structure</text>
+    
+    <!-- Command Parts -->
+    <rect x="-100" y="-40" width="110" height="25" rx="4" ry="4" fill="#f9fafb" stroke="#4f46e5" stroke-width="1" />
+    <text x="-45" y="-25" font-family="Arial, sans-serif" font-size="10" fill="#1f2937" text-anchor="middle">/view</text>
+    
+    <rect x="-100" y="-5" width="110" height="25" rx="4" ry="4" fill="#f9fafb" stroke="#10b981" stroke-width="1" />
+    <text x="-45" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1f2937" text-anchor="middle">action</text>
+    
+    <rect x="-100" y="30" width="110" height="25" rx="4" ry="4" fill="#f9fafb" stroke="#f59e0b" stroke-width="1" />
+    <text x="-45" y="45" font-family="Arial, sans-serif" font-size="10" fill="#1f2937" text-anchor="middle">target</text>
+    
+    <rect x="-100" y="65" width="110" height="25" rx="4" ry="4" fill="#f9fafb" stroke="#ef4444" stroke-width="1" />
+    <text x="-45" y="80" font-family="Arial, sans-serif" font-size="10" fill="#1f2937" text-anchor="middle">options</text>
+    
+    <!-- Connecting Line -->
+    <line x1="-120" y1="-25" x2="-150" y2="100" stroke="#4f46e5" stroke-width="1" stroke-dasharray="2,2" />
+  </g>
+</svg>
